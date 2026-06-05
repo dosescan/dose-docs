@@ -16,10 +16,15 @@ hero:
       text: Install DOSE
       link: /docs/installation
     - theme: alt
+      text: Try Web Scanner
+      link: https://dose-scan.vercel.app
+    - theme: alt
       text: GitHub
       link: https://github.com/dosescan/dose-docs
 
 features:
+  - title: Hosted GitHub Scanner
+    details: Sign in with GitHub and scan repositories across your profile from the web dashboard.
   - title: Pre-Commit Enforcement
     details: Scan only staged Git files and block commits when critical findings are detected.
   - title: Full Codebase Audits
@@ -35,3 +40,16 @@ features:
 ---
 
 <HeroSystem />
+
+<section class="web-scanner-promo">
+  <div>
+    <p class="home-kicker">Web scanner for GitHub profiles</p>
+    <h2>Scan your repositories from a secure GitHub dashboard.</h2>
+    <p>
+      Prefer a browser workflow? Dose Scan connects with GitHub OAuth, lists your repositories,
+      scans public and private projects, and turns suspicious signatures into focused review notices
+      with direct links back to GitHub files.
+    </p>
+  </div>
+  <a href="https://dose-scan.vercel.app" target="_blank" rel="noreferrer">Open Web Scanner</a>
+</section>

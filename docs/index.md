@@ -4,6 +4,11 @@ DOSE, short for Dangerous Operations Security Enforcer, is a lightweight securit
 
 The project has one practical goal: catch dangerous, insecure, or suspicious code patterns early, while the change is still easy to understand and fix.
 
+DOSE is available in two workflows:
+
+- The local `dose-scan` CLI for pre-commit checks, full audits, and Git hooks.
+- The hosted [Dose Scan web scanner](https://dose-scan.vercel.app) for scanning GitHub repositories from a browser dashboard.
+
 ## What DOSE Checks
 
 DOSE looks for high-signal patterns across text files:
@@ -39,5 +44,6 @@ Blocking findings return exit code `1`. Warning-only scans return exit code `0`,
 
 - Install DOSE from the stable update server: [Installation](/docs/installation)
 - Run the scanner for the first time: [Quick Start](/docs/quick-start)
+- Scan from GitHub in the browser: [Web Scanner](/docs/web-scanner)
 - Review supported options: [CLI Reference](/docs/cli)
 - Understand rule behavior: [Security Patterns](/docs/patterns)

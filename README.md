@@ -9,6 +9,7 @@ This repository contains the documentation website only. It is public so the com
 ## Website
 
 - Documentation site: <https://dosescan.github.io/dose-docs/>
+- Hosted web scanner: <https://dose-scan.vercel.app>
 - Public docs repository: <https://github.com/dosescan/dose-docs>
 
 ## Deployment

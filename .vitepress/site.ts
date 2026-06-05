@@ -8,10 +8,12 @@ export const REPO_URL = 'https://github.com/dosescan/dose-docs';
 export const DOCS_SITE_URL = 'https://dosescan.github.io/dose-docs';
 export const INSTALL_SCRIPT_URL = 'https://scan.softvenceomegaforce.cloud/install.sh';
 export const WINDOWS_INSTALL_URL = 'https://scan.softvenceomegaforce.cloud';
+export const WEB_SCANNER_URL = 'https://dose-scan.vercel.app';
 
 export const nav: DefaultTheme.NavItem[] = [
   { text: 'Blog', link: '/blog/' },
   { text: 'Docs', link: '/docs/' },
+  { text: 'Web Scanner', link: WEB_SCANNER_URL },
   { text: 'GitHub', link: REPO_URL }
 ];
 
@@ -22,7 +24,8 @@ export const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: 'Overview', link: '/docs/' },
         { text: 'Installation', link: '/docs/installation' },
-        { text: 'Quick Start', link: '/docs/quick-start' }
+        { text: 'Quick Start', link: '/docs/quick-start' },
+        { text: 'Web Scanner', link: '/docs/web-scanner' }
       ]
     },
     {
