@@ -1,0 +1,14 @@
+node_modules/
+.vitepress/cache/
+.vitepress/dist/
+dist/
+*.local
+.DS_Store
+Thumbs.db
+vitepress-dev.log
+home-desktop.png
+home-mobile.png
+docs-desktop.png
+hero-*-check.png
+.chrome-debug-profile/
+.chrome-debug-profile
