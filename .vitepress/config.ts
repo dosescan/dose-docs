@@ -46,7 +46,7 @@ export default defineConfig({
       provider: "local",
     },
     editLink: {
-      pattern: `${REPO_URL}/edit/main/docs/:path`,
+      pattern: `${REPO_URL}/edit/main/:path`,
       text: "Edit this page on GitHub",
     },
     footer: {

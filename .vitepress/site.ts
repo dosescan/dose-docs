@@ -10,6 +10,7 @@ export const INSTALL_SCRIPT_URL = 'https://scan.softvenceomegaforce.cloud/instal
 export const WINDOWS_INSTALL_URL = 'https://scan.softvenceomegaforce.cloud';
 
 export const nav: DefaultTheme.NavItem[] = [
+  { text: 'Blog', link: '/blog/' },
   { text: 'Docs', link: '/docs/' },
   { text: 'GitHub', link: REPO_URL }
 ];
@@ -39,6 +40,15 @@ export const sidebar: DefaultTheme.Sidebar = {
         { text: 'Architecture', link: '/docs/architecture' },
         { text: 'Contributing', link: '/docs/contributing' },
         { text: 'Roadmap', link: '/docs/roadmap' }
+      ]
+    }
+  ],
+  '/blog/': [
+    {
+      text: 'Release Notes',
+      items: [
+        { text: 'All Posts', link: '/blog/' },
+        { text: 'Announcing DOSE 1.0', link: '/blog/v1.0' }
       ]
     }
   ]
