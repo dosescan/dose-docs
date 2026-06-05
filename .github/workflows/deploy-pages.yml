@@ -35,10 +35,14 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Build
         run: npm run build
-        env:
-          DOCS_BASE_PATH: /dose-docs/
+
+      - name: Disable Jekyll
+        run: touch .vitepress/dist/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
