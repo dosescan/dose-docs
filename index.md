@@ -18,9 +18,6 @@ hero:
     - theme: alt
       text: Try Web Scanner
       link: https://dose-scan.vercel.app
-    - theme: alt
-      text: GitHub
-      link: https://github.com/dosescan/dose-docs
 
 features:
   - title: Hosted GitHub Scanner
