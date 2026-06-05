@@ -8,7 +8,7 @@ description: Release announcements and product updates for DOSE Scanner.
 Release announcements, product updates, and notes from the DOSE documentation project.
 
 <section class="blog-list">
-  <a class="blog-card" href="/blog/v1.0">
+  <a class="blog-card" href="./v1.0">
     <span>Release Announcement</span>
     <h2>Announcing DOSE 1.0</h2>
     <p>
