@@ -8,7 +8,7 @@ This repository contains the documentation website only. It is public so the com
 
 ## Website
 
-- Documentation site: <https://dosescan.github.io>
+- Documentation site: <https://dosescan.github.io/dose-docs/>
 - Public docs repository: <https://github.com/dosescan/dose-docs>
 
 ## Deployment
@@ -23,9 +23,9 @@ To enable it in GitHub:
 
 After that, every push to `main` will build and publish the site at:
 
-<https://dosescan.github.io/>
+<https://dosescan.github.io/dose-docs/>
 
-GitHub only serves a site at the root `https://dosescan.github.io/` when the Pages repository is named `dosescan.github.io`. If this code stays in a project repository named `dose-docs`, GitHub Pages will publish it under `/dose-docs/` instead. For the root domain, move or mirror this site into the `dosescan.github.io` repository and keep **Settings -> Pages -> Source -> GitHub Actions** enabled there.
+GitHub serves this repository as a project site, so the `/dose-docs/` path is required. The root `https://dosescan.github.io/` URL is only available from a repository named `dosescan.github.io`.
 
 ## What Is Inside
 
