@@ -4,8 +4,8 @@ export const SITE_TITLE = 'DOSE Scanner';
 export const SITE_DESCRIPTION =
   'Dangerous Operations Security Enforcer: a lightweight, bash-based scanner for dangerous code patterns, secrets, and risky operations.';
 
-export const REPO_URL = 'https://github.com/devlopersabbir/dose-scan';
-export const DOCS_SITE_URL = 'https://devlopersabbir.github.io/dose-scan';
+export const REPO_URL = 'https://github.com/dosescan/dose-docs';
+export const DOCS_SITE_URL = 'https://dosescan.github.io/dose-docs';
 export const INSTALL_SCRIPT_URL = 'https://scan.softvenceomegaforce.cloud/install.sh';
 export const WINDOWS_INSTALL_URL = 'https://scan.softvenceomegaforce.cloud';
 
@@ -47,4 +47,3 @@ export const sidebar: DefaultTheme.Sidebar = {
 export const socialLinks: DefaultTheme.SocialLink[] = [
   { icon: 'github', link: REPO_URL }
 ];
-

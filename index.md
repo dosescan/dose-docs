@@ -17,7 +17,7 @@ hero:
       link: /docs/installation
     - theme: alt
       text: GitHub
-      link: https://github.com/devlopersabbir/dose-scan
+      link: https://github.com/dosescan/dose-docs
 
 features:
   - title: Pre-Commit Enforcement
@@ -34,43 +34,4 @@ features:
     details: Extend rules and modules without mixing scanner logic, Git integration, and pattern definitions.
 ---
 
-<section class="home-band">
-  <div class="home-band__inner">
-    <div>
-      <p class="home-kicker">Security that fits the commit loop</p>
-      <h2>Find dangerous changes while they are still small enough to fix.</h2>
-      <p>
-        DOSE is built for the moment before code leaves a developer machine. It scans staged files for high-risk
-        patterns, warns on risky practices, and keeps the output focused on findings that deserve attention.
-      </p>
-    </div>
-    <ul class="workflow-list">
-      <li>
-        <span class="status-chip status-chip--block">BLOCK</span>
-        <span><strong>Critical patterns</strong> stop commits until the issue is fixed or intentionally reviewed.</span>
-      </li>
-      <li>
-        <span class="status-chip status-chip--warn">WARN</span>
-        <span><strong>Suspicious patterns</strong> stay visible without breaking the developer workflow.</span>
-      </li>
-      <li>
-        <span class="status-chip status-chip--safe">SAFE</span>
-        <span><strong>Clean scans</strong> confirm the checked files passed the configured rule set.</span>
-      </li>
-    </ul>
-  </div>
-
-  <pre class="terminal-preview"><code><span class="line-safe">$ dose-scan --staged</span>
-DOSE Scanner (--staged)
-Discovered 8 candidate files.
-Scanning 8 text files with 8 parallel workers.
-
-src/config.ts
-  <span class="line-danger">BLOCK</span> Generic secret
-    Location: src/config.ts:14
-
-src/debug.ts
-  <span class="line-warning">WARN</span> Console logging
-
-Commit blocked. Fix BLOCK items, then run DOSE again.</code></pre>
-</section>
+<HeroSystem />
